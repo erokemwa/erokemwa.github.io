@@ -1,0 +1,85 @@
+import React from 'react';
+import './styles.css'; // Import your CSS file
+
+function App() {
+  return (
+    <div className="portfolio-container">
+      <header className="header">
+        <h1>Eric Okemwa</h1>
+        <p>Software Engineer | Business Intelligence Analyst | Financial Analyst</p>
+      </header>
+      <main className="main">
+        <section className="about-me">
+          <h2>About Me</h2>
+          <p>
+            I'm a highly motivated professional with a passion for applying software development, 
+            data analysis, and financial modeling to solve complex problems. I possess strong 
+            software engineering skills with experience in various programming languages and 
+            frameworks. My expertise in business intelligence allows me to extract valuable 
+            insights from data, while my financial modeling skills enable me to build robust 
+            financial models and perform valuations. This unique combination of skills allows me 
+            to bridge the gap between technology, data, and finance, driving strategic decision-making. 
+           
+          </p>
+        </section>
+        <section className="expertise">
+          <h2>Expertise</h2>
+          <ul>
+            <li>
+                <h3>Software Engineering</h3>
+                <li>Programming Languages: HTML, CSS, JavaScript (React, Angular, Vue.js)</li>
+                <li>Programming Languages: Python, Java, C++, PHP</li>
+                <li>Data Science/Machine Learning: Python (NumPy, Pandas, TensorFlow, Scikit-learn)</li>
+                <li>Frameworks & Tools: Git, GitHub, Webpack, Gulp, Jest, Mocha, Jasmine</li>
+                <li>Cloud Platforms: AWS, Azure, GCP</li>
+                <li>Database Technologies: SQL (MySQL, PostgreSQL), NoSQL (MongoDB)</li>
+                <li>API development and integration</li>
+                <li>Object-Oriented Programming (OOP) principles</li>
+                <li>Design patterns</li>
+                <li>Software development methodologies (Agile, Waterfall)</li>
+                <li>System design and architecture</li>
+            </li>
+            <li>
+              <h3>Business Intelligence & Data Analysis</h3>
+              <li>Data Analysis Tools: Tableau, Power BI</li>
+              <li>Data Visualization Techniques: Charts, Graphs, Dashboards</li>
+              <li>Data Wrangling & Cleaning: Data manipulation and preparation for analysis</li>
+              <li>Data Mining & Exploration: Uncovering hidden patterns and trends</li>
+              <li>Storytelling with Data: Effectively communicating insights to stakeholders</li>
+              <li>Methodologies: Agile BI, Data Warehousing, Data Governance</li>
+            </li>
+            <li>
+              <h3>Financial Modeling & Valuation Analysis</h3>
+              <li>Financial Modeling Software: Excel (Advanced Functions, VBA), Python (NumPy, Pandas, Financial Libraries)</li>
+              <li>Valuation Techniques: Discounted Cash Flow (DCF), Multiples Valuation (P/E Ratio, EV/EBITDA), Mergers & Acquisitions (M&A) Valuation</li>
+              <li>Financial Statement Analysis: Analyzing income statements, balance sheets, and cash flow statements to assess financial health</li>
+              <li>Scenario Modeling & Sensitivity Analysis: Building flexible models to assess various financial outcomes</li>
+              <li>Capital Budgeting & Investment Analysis: Evaluating potential investments and making informed decisions</li>
+            </ul>
+            </li>
+          </ul>
+        </section>
+        <section className="projects">
+          <h2>Projects</h2>
+          <ul>
+            {/* Add project details here */}
+            <li>
+              <h3>Project Title</h3>
+              <p>A brief description of the project, including the technical aspects and the impact it achieved.</p>
+              <a href="#">Link to Project (optional)</a>
+            </li>
+          </ul>
+        </section>
+        <section className="contact">
+          <h2>Contact</h2>
+          <p>Provide your contact information (email, social media links, etc.)</p>
+        </section>
+      </main>
+      <footer className="footer">
+        <p>Copyright © {new Date().getFullYear()} Your Name</p>
+      </footer>
+    </div>
+  );
+}
+
+export default App;
