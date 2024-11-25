@@ -111,7 +111,7 @@ This project is open source and available under the [MIT License](LICENSE).
 
 Eric Okemwa
 - Portfolio: [https//:erokemwa.me]
-- GitHub: [Your GitHub Profile]
+- GitHub: [https://github.com/erokemwa]
 - LinkedIn: [Your LinkedIn Profile]
 
 ## 🤝 Contributing
