@@ -110,7 +110,7 @@ This project is open source and available under the [MIT License](LICENSE).
 ## 👤 Author
 
 Eric Okemwa
-- Portfolio: [https//:erokemwa.me]
+- Portfolio: [https://erokemwa.me]
 - GitHub: [https://github.com/erokemwa]
 - LinkedIn: [Your LinkedIn Profile]
 
