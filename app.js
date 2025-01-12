@@ -47,7 +47,7 @@
 
                     let img = document.createElement('img');
                     img.src = imgSrc;
-                    img.alt = '';  // You should set a meaningful alt text
+                    img.alt = '';  // Set a meaningful alt text
 
                     let blogText = document.createElement('div');
                     blogText.className = 'blog-text';
