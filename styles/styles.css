@@ -478,6 +478,21 @@ section {
   grid-gap: 2rem;
   margin-top: 3rem;
 }
+.banner-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+    overflow: hidden;
+}
+
+.banner-container img {
+    transition: transform 0.3s ease-in-out;
+}
+
+.banner-container img:hover {
+    transform: scale(1.02); 
+}
 .blogs .blog {
   position: relative;
   background-color: var(--color-grey-5);
